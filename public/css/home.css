@@ -1,0 +1,22 @@
+﻿.prods {
+	list-style: none;
+}
+
+.prods li {
+	float: right;
+/*	max-width: 150px;*/
+	margin: 20px;
+}
+
+.prods li  a {
+/*	display: block;*/
+}
+
+.prods li  img {
+	display: block;
+	margin: auto;
+}
+
+.prods li div {
+	text-align: center;
+}

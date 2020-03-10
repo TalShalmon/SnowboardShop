@@ -1,0 +1,20 @@
+#pic {
+	position: relative;
+	background-color: #363535;
+	color: #C6C7C7;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+#pic:hover {
+	background-color: #C6C7C7;
+	color: #363535;
+}
+
+.pic_upload {
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+}

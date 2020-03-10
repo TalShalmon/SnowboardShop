@@ -1,0 +1,61 @@
+﻿.signing, .adding, .updating, .activation {
+	border-style: none;
+	disply: block;
+	width: 95%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+.label {
+	display: block;
+	text-align: left;
+	float: right;
+	width: 150px;
+	margin: 0 10px;
+}
+
+.input {
+	border-radius: 10px;
+	display: block;
+	float: right;
+	width: 300px;
+}
+
+select {
+	height: 22px;
+	margin: 0px 0px 0px 0px;
+	border-bottom: #ffdead solid 2px;
+	border-right: #ffdead solid 1px;
+	border-left: #c07300 solid 1px;
+	border-top:  #c07300 solid 2px;
+}
+
+.message {
+	display: block;
+	text-align: right;
+	float: right;
+	width: 350px;
+	margin: 0 10px;
+}
+
+#username, #phone {
+	direction: ltr;
+	text-align: left;
+}
+
+#signing-submit, #adding-submit, #update-submit, #activation-submit, #return {
+	position: relative;
+	right: 170px;
+	background-color: #363535;
+	color: #C6C7C7;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+#signing-submit:hover, #adding-submit:hover, #update-submit:hover, #activation-submit:hover, #return:hover {
+	background-color: #C6C7C7;
+	color: #363535;
+}

@@ -1,0 +1,19 @@
+﻿#content h2 {
+	background: #C9C9C9;
+}
+
+#return {
+	position: relative;
+	right: 170px;
+	background-color: #363535;
+	color: #C6C7C7;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+#return:hover {
+	background-color: #C6C7C7;
+	color: #363535;
+}

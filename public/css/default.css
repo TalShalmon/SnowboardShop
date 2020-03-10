@@ -1,0 +1,192 @@
+﻿html {
+	direction: rtl;
+}
+
+body {
+	background: #87CEFA;
+	min-width: 1000px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+#cart {
+	background: #00aaff;
+	position: fixed;
+	top: 250px;
+	right: 0;
+}
+
+#cart:hover {
+	background: #ff5500 !important;
+}
+
+#site-layout {
+	margin: 25px 50px;
+}
+
+/* site structure */
+/* header */
+header {
+	background: #12407F;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 5px solid #436FAC;
+}
+
+/* header structure */
+#site-title {
+}
+
+/* site-title structure */
+#logo {
+	float: right;
+	width: 50%;
+	min-width: 500px;
+	padding: 15px 25px 5px 15px;
+}
+
+#btn-logo {	
+	background: url("../images/SnowBoarding_Logo.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 150px;
+	width: 500px;
+	border-radius: 10px;
+}
+
+#title {
+	width: auto;
+	margin: 0 50% 0 0;
+	padding: 15px 15px 5px 25px;
+}
+
+#btn-title {
+	background: url("../images/Title.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 150px;
+}
+
+#top-menu{
+	background: #8A2BE2 url('../images/grad-l-trans.PNG') repeat-x center top !important;
+	height: 30px;
+}
+
+#top-menu ul {
+	list-style: none;
+	padding-top: 5px;
+}
+
+#top-menu li {
+	float: right;
+	background: none repeat scroll 0 0 transparent;
+	display: inline;
+}
+
+#top-menu li:first-child {
+	border-right: 1px solid #555555;
+}
+
+#top-menu li {
+	border-left: 1px solid #555555;
+}
+
+#top-menu li:hover {
+	background: #F02BE2 url('../images/grad-l-trans.PNG') repeat-x center top !important;
+}
+
+#top-menu li:active {
+	background: #F02BE2 url('../images/grad-l-trans.PNG') repeat-x center top !important;
+}
+
+#top-menu a {
+	color: #fff;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+/*#main */
+section {
+	float: right;
+	width: 100%;
+	background: #D5D5D5;
+	overflow: hidden;
+	position: relative;
+}
+
+#main {
+	float: right;
+	width: 100%;
+	background: #1250BF;
+	position: relative;
+	left: 80%;
+}
+
+/* main structure */
+#right-col {
+	color: #FFF;
+	float: right;
+	right: 80%;
+	width: 20%;
+	position: relative;
+	overflow: hidden;
+}
+
+#right-menu {
+	background: #5D8ADD;
+	min-width: 200px;
+}
+
+.logging {
+	border-style: none;
+}
+
+.logging input {
+	border-radius: 10px;
+	direction: ltr;
+}
+
+/*#login-submit:hover {*/
+.logging button:hover {
+	background-color: #C6C7C7;
+	color: #363535;
+}
+
+#left-col {
+	float: right;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+	right: 80%;
+}
+
+/* left-col structure */
+#content {
+	padding: 0;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+#content h1 {
+	background: #E5E5E5;
+}
+/* footer */
+footer {
+	background: #AFEEEE;
+	color: #D2691E;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #436FAC;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	clear:both;
+}
+
+/* right-col structure */
+.logging button {
+	background-color: #363535;
+	color: #C6C7C7;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+}

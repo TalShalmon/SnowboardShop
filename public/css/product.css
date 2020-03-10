@@ -1,0 +1,67 @@
+﻿div>img {
+	display: block;
+	margin: auto;
+	height: 200px;
+}
+
+#add_review, #add_to_cart, #submitButton, #cancelButton {
+	position: relative;
+	margin: 15px 15px;
+	background-color: #363535;
+	color: #C6C7C7;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+#add_review:hover, #add_to_cart:hover, #submitButton:hover, #cancelButton:hover {
+	background-color: #C6C7C7;
+	color: #363535;
+}
+
+#product-info {
+	font-size: 20px;
+}
+
+.info-title {
+	float: right;
+	width: 100px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.info {
+	float: right;
+	width: 100px;
+}
+
+#reviews {
+	background: #abc;
+}
+
+.review_title {
+	position: relative;
+	font-weight: bold;
+	height: 20px;
+	background: #bbb;
+}
+
+.review-info, .grades {
+	float: right;
+	width: 250px;
+}
+
+.grades {
+	color: yellow;
+}
+
+.review_body {
+	word-wrap: break-word;
+}
+
+textarea {
+	resize: none;
+	background: #abc;
+	font-size: 15px;
+}
